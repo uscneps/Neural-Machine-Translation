@@ -9,7 +9,19 @@ In this paper, we make a distinction between restricted and unrestricted natural
 
 ### Using the Notebook
 
-For producing the dataset and the training set you should use the tool at the following link: 
+Each experiment has been performed on Google Colab, hence all the relative dataset paths are related to Google Drive.
+For this reason you need to create a Google account if you don't have one already, otherwise you can change the relative paths within the notebooks to run it locally.
+
+If you want to run the notebooks on Google Colab without changing paths, you need to create a folder named "experiments" in your Google Drive's "My Drive" section.
+Then add the dataset files to the folder so that you can simply run the notebooks.
+
+If you want to replicate the same experiments as the ones in the paper, you can either download the datasets from the following link:
+
+https://huggingface.co/datasets/cRick/NL-to-LTL-Synthetic-Dataset
+
+or you can recreate them using the dataset generator with the same parameters showed in the paper.
+
+The dataset generator is available at the following link:
 
 https://github.com/RiccardoColtrinari/nl2ltl-dataset-generator
 
